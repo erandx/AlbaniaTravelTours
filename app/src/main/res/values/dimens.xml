@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height and width of each list item -->
+    <dimen name="list_item_height">120dp</dimen>
+    <dimen name="list_item_details_height">88dp</dimen>
+    <dimen name="list_item_details_activity_height">60dp</dimen>
+
+    <!-- Albania Details Text and Images -->
+    <dimen name="detail_backdrop_height">200dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+</resources>

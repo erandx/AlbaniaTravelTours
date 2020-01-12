@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d47a1</color>
+    <color name="colorPrimaryDark">#283593</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- App headline color -->
+    <color name="app_headline_color">#99ffffff</color>
+
+    <!-- Red colour for buttons -->
+    <color name="red_color">#d50000</color>
+
+    <!-- Semi-transparent Light color -->
+    <color name="light_color_semi_trans">#8016AFCA</color>
+</resources>

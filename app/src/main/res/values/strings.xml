@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Albania Travel &amp; Tours</string>
+    <string name="headline">Explore Albania</string>
+
+    <!-- Category name for City [CHAR LIMIT=20] -->
+    <string name="category_city">City</string>
+
+    <!-- Category name for the Tours [CHAR LIMIT=20] -->
+    <string name="category_tours">Tours</string>
+
+    <!-- Category name for the Hotels [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+    <!-- Category name for the Restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- String names for activities [CHAR LIMIT=40] -->
+    <string name="details_place_name">Tirana</string>
+    <string name="details_place_info">City of Tirana</string>
+
+
+    <!-- Information Regarding each city -->
+    <string name="tirana_city_info">Tirana, the capital of Albania, is known for its colorful Ottoman-, Fascist- and Soviet-era architecture. Pastel buildings surround the city\'s focal point, Skanderbeg Square, which is named for its equestrian statue of a national hero. On the square\'s north end is the modernist National History Museum, covering prehistoric times through Communist rule and the anti-Communist uprisings of the 1990s.</string>
+    <string name="berat_city_info">Berat is a city on the Osum River, in central Albania. It is known for its white Ottoman houses. On a hilltop, Berat Castle is a huge compound now inhabited by townspeople. Within its walls are Byzantine churches, the Red Mosque and the Onufri National Museum, with Christian icons. East is the Ethnographic Museum, in an 18th-century house, displaying traditional crafts and part of a reconstructed medieval bazaar."</string>
+    <string name="durres_city_info">Durrës is a port city on the Adriatic Sea in western Albania, west of the capital, Tirana. It’s known for its huge Roman amphitheater. Nearby is a 9th-century church with mosaic-covered walls. The Archaeological Museum displays pieces from the Greek, Hellenistic and Roman periods.</string>
+    <string name="gjirokaster_city_info">Gjirokastër is a city in southern Albania, on a valley between the Gjerë mountains and the Drino, at 300 metres above sea level. Its old town is a UNESCO World Heritage Site, described as "a rare example of a well-preserved Ottoman town, built by farmers of large estate".</string>
+    <string name="kruja_city_info">Krujë is a town and a municipality in north central Albania. Located between Mount Krujë and the Ishëm River, the city is only 20 km north from the capital of Albania, Tirana. Krujë was inhabited by the ancient Illyrian tribe of the Albani.</string>
+    <string name="pogradec_city_info">Pogradec is a city and municipality in central Albania, situated on the shores of the Ohrid lake. The lake is one of Europe\'s deepest and oldest lakes. It is located in the County of Korçë. This city is surrounded by hills on the southern and western side. The lake is in the eastern and northern side of the city.</string>
+    <string name="vlora_city_info">Vlora is a municipality in the southwest of Albania with an estimated population of 130,827 in an area of 647.94 km². It is the administrative center of the homonymous municipality seat of the County of Vlorë</string>
+    <string name="saranda_city_info">Sarandë is a resort on the Albanian Riviera, in southern Albania. Sandwiched between the Ionian Sea and hills of olive groves, the town is on a horseshoe-shaped bay, edged by beaches and a promenade. In the center are the archaeological remains of a 5th-century synagogue, later an early Christian basilica. Intricate floor mosaics are still evident. The 16th-century Lëkurësi Castle is on a hilltop above the town.</string>
+    <string name="shkoder_city_info">Shkodra, the traditional centre of the Gheg cultural region, is one of the oldest cities in Europe and arguably the most attractive urban centre in Albania.</string>
+
+
+    <!-- Information Regarding Tours -->
+    <string name="tour_info">Please send us an email in case you would like to ask about more information.</string>
+
+    <!-- Information Regarding each Hotel -->
+    <string name="tirana__hotel_rogner_info">The Europapark Rogner Hotel in Tirana is the city’s most exclusive facility which features five-star Albanian lifestyle, situated on the main boulevard of Tirana, next to the Ministry of Finances and other important institutions of Albania and Tirana. The seat of the Parliament, the President’s office, Prime minister’s office and many important embassies are within walking distance and makes the Europapark Rogner Hotel in Tirana the meeting place of the international economy, diplomacy, culture, business and art..</string>
+    <string name="berat__hotel_mangalemi_info">With the change of system in 1991, the idea of the Mio family to establish a private business was clear. Thus, the old house was restructured and transformed into Mangalem’ Hotel – a modest investment at that time, but made with much love and dedication. Initially, it was operated as a restaurant prominent for its traditional cooking even then.</string>
+    <string name="durres__hotel_ylli_i_detit_info">Ylli I Detit Is located only 35 km far from Tirana capital. Located along the Adriatic sea shore, in the middle of greenness, and with a modern architecture. YLLI I DETIT Hotel offers wonderful surroundings and a high quality service. The Hotel offers 22 comfortable rooms with a magic sea view, equipped with TV, mini-bar, direct dial up phone, security case etc. As well as a Bar, a Restaurant with a rich menu of traditional &amp; Italian cuisine, pizzeria, private beach and a fantastic kid\'s corner.</string>
+    <string name="gjirokaster__hotel_gjirokastra_info">The Hotel "Gjirokastra" is located in the Partizani District, right behind the Bazaar Mosque. It is a new hotel in the Museum Quarter of the city with the ambiance of a traditional home. It consists of 4 rooms, 3 single and 1 double. All rooms are priced €25 (with breakfast included in the price).</string>
+    <string name="kruja_hotel_panorama_info">Situated in Kruja , near the Rinas Tirana Airport offering its guests the atmosphere of a grand hotel with modern amenity . Our hotel is the best possible variant . You will find at Panorama hotel not only the silence and the fresh air which features the whole city , but also the relax and the amazing view from balconies of our hotel thanks to its position.</string>
+    <string name="pogradec__hotel_perla_info">Right next to the beach on Lake Ohrid, the Perla Hotel provides free Wi-Fi and free parking, while its bar has a terrace surrounded by green plants. The hotel has 18 rooms and 4 beautiful suites. The rooms have big space and are furnished with elegance. The rooms are all air conditioned. The restaurant serves both international and traditional Albanian specialities. Front desk is open 24 hours a day and offers currency exchange, ironing and laundry services. The hotel has a souvenir shop on site. The centre of Pogradec is about 500 metres from Hotel Perla.</string>
+    <string name="vlora_hotel_regina_info">Hotel Regina is located on one of the most beautiful beaches in the world, along the southern coastline of Albania. We have a modern facility with all the amenities necessary to make your stay with us a pleasant and memorable experience.</string>
+    <string name="saranda_hotel_brilant_info">Brilant is a modern 4 star hotel located in the beautiful area of Saranda, on the south coast of Albania. The combination of the excellent location, the hotel facilities and our friendly staff, have established our hotel in the TOP of holiday choice of Saranda.</string>
+    <string name="shkoder_hotel_tradita_info">Facing the hillside, the 3-star Hotel Tradita features a terrace restaurant. The venue is housed in an ancient-style building. Its rooms come with a cupboard, a writing table and ironing facilities. Hotel Tradita Shkoder offers a stunning view to its guests. All accommodation has hardwood floor.</string>
+
+    <!-- Information Regarding each Restaurant -->
+    <string name="tirana_restaurant_bujtina_e_gjelit">Opened in 1994,albanian traditional Hotel-Restaurant Bar! Common areas feature rustic wood beams and cobblestone floors. There\'s an informal restaurant with a brick oven and outdoor seating, an outdoor pool with sunloungers, and free parking. Hiking, BBQs and fruit-picking are available at the hotel\'s off-site farm.</string>
+    <string name="berat_restaurant_mangalemi">With the change of system in 1991, the idea of the Mio family to establish a private business was clear. Thus, the old house was restructured and transformed into Mangalem’ Hotel – a modest investment at that time, but made with much love and dedication. Initially, it was operated as a restaurant prominent for its traditional cooking even then.</string>
+    <string name="durres_restaurant_rifat_peshkatari">Rifat Peshkatari Seafood Restaurant: one of the best fish restaurants you can find in Durres</string>
+    <string name="gjirokaster_restaurant_taverna_tradicionale">Taverna Tradicionale offers delicious traditional food and a family atmosphere.</string>
+    <string name="kruje_restaurant_bardhi">Restaurant Bardhi built since 1994, where the national architecture is intertwined with the modern one. We grow day by day and our motto is “continuous improvement”. Each visitor offers a pleasure that requires them to be repeated, thanks to a specialized staff that will make you feel at home. The Bardhi Restaurant is located in the south-west of the fishing village, only a few steps away from the National Museum Gj. K. Skenderbeu Kruje. Where the spectacular view at 607m above sea level offers you freshness, pleasure and relaxation.</string>
+    <string name="pogradec_restaurant_rosa_e_tymosur">This traditional Restaurant offers delicious food.</string>
+    <string name="vlora_restaurant_joni">"Restorant Joni Seafood restaurant in Vlora, is a destination not to be missed for true lovers of seafood specialties. We only use fresh fish, because we want to restore the true taste and pleasure of seafood to every palate." Restorant Joni Vlore "also offers Mediterranean cuisine, Italian cuisine and pizzeria. We attach great importance to authenticity, not only with regard to the seafood dishes featured in our menus, but also for the desserts we can offer at the end of the meal. Desserts are made at home and have the same care that we put in the preparation of our specialties.</string>
+    <string name="saranda_restaurant_demi">Whether you are going to have a business lunch, romantic candlelight dinner or just a drink after a busy day, the Demi Restaurant will always meet your needs. Don’t hesitate to book a table at the Demi Restaurant and your evening will be transformed into a genuine voyage of pleasure, discovering a new way of reinterpreting the culinary traditions of a region which is one of the richest in flavors and recipes: no other restaurant in Saranda can offer more. Enjoy the breakfast, lunch or dinner in an elegant ambiance under greenery or at the seaside.</string>
+    <string name="shkoder_restaurant_tradita">www.traditionandadventure.com</string>
+
+
+    <string name="agency_website_url">www.traditionandadventure.com</string>
+
+
+</resources>
