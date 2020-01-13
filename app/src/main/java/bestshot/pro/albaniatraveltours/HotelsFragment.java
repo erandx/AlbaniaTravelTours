@@ -7,12 +7,9 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-
 import java.util.ArrayList;
 
 /**
@@ -40,7 +37,6 @@ public class HotelsFragment extends Fragment {
         mContext = context;
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -57,7 +53,6 @@ public class HotelsFragment extends Fragment {
         AlbaniaDatabase.add(new Albania("Hotel Brilant", "Saranda", getString(R.string.saranda_hotel_brilant_info), R.drawable.hotel_brilant, R.drawable.ic_location,"https://goo.gl/maps/get2PS64YnHi84xr9"));
         AlbaniaDatabase.add(new Albania("Hotel Tradita", "Shkoder", getString(R.string.shkoder_hotel_tradita_info), R.drawable.hotel_tradita, R.drawable.ic_location,"https://goo.gl/maps/N3UXwyDy6jso1NLa8"));
 
-
         //Create a standard LinearLayout Manager to control how the recycler works
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         //Create an adapter based on the custom class we created
@@ -67,7 +62,6 @@ public class HotelsFragment extends Fragment {
         recyclerView = rootView.findViewById(R.id.my_recycler_view);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
-
 
         return rootView;
 

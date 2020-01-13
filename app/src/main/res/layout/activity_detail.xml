@@ -1,107 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:fitsSystemWindows="true">
 
-
-    <LinearLayout
-        android:id="@+id/detail_layout"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <ImageView
-            android:id="@+id/albania_image"
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/tirana"
-            android:scaleType="centerCrop" />
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-
-        <LinearLayout
-            android:id="@+id/place_layout_id"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/list_item_details_activity_height"
-            android:orientation="vertical"
-            android:paddingLeft="16dp">
-
-            <TextView
-                android:id="@+id/albania_text_view"
+            <ImageView
+                android:id="@+id/albania_image"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="bottom"
-                android:text="@string/details_place_name"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/holo_red_dark"
-                android:textStyle="bold" />
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/tirana"
+                android:scaleType="centerCrop" />
 
-            <TextView
-                android:id="@+id/info_text_view"
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:gravity="top"
-                android:text="@string/details_place_info"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/darker_gray"
-                android:textStyle="bold" />
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin">
+
+                <TextView
+                    android:id="@+id/albania_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:text="@string/details_place_name"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/detail_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/place_layout_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="16dp">
+
+                    <TextView
+                        android:id="@+id/info_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:text="@string/details_place_info"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/location_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/place_layout_id"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/small_padding"
+                    android:text="@string/tour_info"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_layout"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ic_website"
+                    style="@style/web_icon"
+                    android:background="@drawable/ic_website"
+                    android:drawablePadding="@dimen/small_padding" />
+
+                <TextView
+                    android:id="@+id/agency_website"
+                    style="@style/website_link"
+                    android:layout_weight="0.9"
+                    android:background="?attr/selectableItemBackground"
+                    android:text="@string/agency_website_url"
+                    android:textColor="@color/colorPrimaryDark" />
 
 
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/place_map"
+                    style="@style/map_icon"
+                    android:layout_margin="@dimen/small_padding"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/ic_location" />
+            </LinearLayout>
+        </RelativeLayout>
 
-    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
-
-    <TextView
-        android:id="@+id/location_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/detail_layout"
-        android:background="?attr/selectableItemBackground"
-        android:clickable="true"
-        android:gravity="center_vertical"
-        android:padding="@dimen/small_padding"
-        android:text="@string/tour_info"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/agency_website"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/ic_website"
-        android:background="?attr/selectableItemBackground"
-        android:clickable="true"
-        android:paddingBottom="@dimen/medium_padding"
-        android:text="@string/agency_website_url"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="bold" />
-
-
-    <ImageView
-        android:id="@+id/ic_website"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/ic_website"
-        android:drawablePadding="@dimen/small_padding" />
-
-    <ImageView
-        android:id="@+id/place_map"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/small_padding"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@drawable/ic_location" />
-
-
-</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

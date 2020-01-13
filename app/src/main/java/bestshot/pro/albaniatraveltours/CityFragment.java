@@ -69,7 +69,6 @@ public class CityFragment extends Fragment {
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
 
-
         return rootView;
 
     }

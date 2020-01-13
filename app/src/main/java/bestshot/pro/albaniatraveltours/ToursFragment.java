@@ -23,7 +23,6 @@ public class ToursFragment extends Fragment {
     final public ArrayList<Albania> AlbaniaDatabase = new ArrayList<>();
     RecyclerView recyclerView;
 
-
     private Context mContext;
 
     public ToursFragment() {
@@ -41,7 +40,6 @@ public class ToursFragment extends Fragment {
         mContext = context;
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -57,7 +55,6 @@ public class ToursFragment extends Fragment {
         AlbaniaDatabase.add(new Albania("ALBANIA, MACEDONIA, KOSOVO", "Balkan in 12 days", getString(R.string.tour_info), R.drawable.albania_macedonia_kosovo));
         AlbaniaDatabase.add(new Albania("Albania Culinary Delights", "7 nights / 8 days", getString(R.string.tour_info), R.drawable.discover_albania));
 
-
         //Create a standard LinearLayout Manager to control how the recycler works
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         //Create an adapter based on the custom class we created
@@ -68,9 +65,7 @@ public class ToursFragment extends Fragment {
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
 
-
         return rootView;
-
 
     }
 

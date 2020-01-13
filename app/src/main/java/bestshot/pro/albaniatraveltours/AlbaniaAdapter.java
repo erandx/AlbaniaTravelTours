@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -41,9 +42,7 @@ public class AlbaniaAdapter extends RecyclerView.Adapter<AlbaniaAdapter.AlbaniaH
         holder.placeLocation.setText(currentAlbania.getmPlaceInfo());
         holder.placeImage.setImageResource(currentAlbania.getmPlaceImage());
 
-
         //Sets OnClick listener that goes to the details page for each category
-
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,7 +58,6 @@ public class AlbaniaAdapter extends RecyclerView.Adapter<AlbaniaAdapter.AlbaniaH
                 albaniaDetailsIntent.putExtra("LINK", currentAlbania.getLink());
                 view.getContext().startActivity(albaniaDetailsIntent);
 
-
             }
         });
 
@@ -71,7 +69,6 @@ public class AlbaniaAdapter extends RecyclerView.Adapter<AlbaniaAdapter.AlbaniaH
     public int getItemCount() {
         return AlbaniaDatabase.size();
     }
-
 
     //Custom holder for our ID
     class AlbaniaHolder extends RecyclerView.ViewHolder {
@@ -86,6 +83,5 @@ public class AlbaniaAdapter extends RecyclerView.Adapter<AlbaniaAdapter.AlbaniaH
             placeImage = albaniaView.findViewById(R.id.albania_image);
         }
     }
-
 
 }

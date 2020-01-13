@@ -8,13 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
+    <!-- Style for tabs -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
+
         <item name="tabIndicatorColor">@color/red_color</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
         <item name="tabBackground">@color/light_color_semi_trans</item>
     </style>
+
 
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
@@ -28,6 +30,53 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textColor">@color/light_color_semi_trans</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+
+    </style>
+
+    <!-- Map detail icon -->
+    <style name="map_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+
+    </style>
+
+    <!-- web detail icon -->
+    <style name="web_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_toRightOf">@id/ic_website</item>
+    </style>
+
+    <!-- website detail link -->
+    <style name="website_link">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/ic_website</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/medium_padding</item>
+    </style>
+
+    <!-- List item text -->
+    <style name="list_item_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_toRightOf">@id/albania_image</item>
+        <item name="android:layout_toEndOf">@id/albania_image</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+
     </style>
 
 

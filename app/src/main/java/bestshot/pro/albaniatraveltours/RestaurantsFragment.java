@@ -41,7 +41,6 @@ public class RestaurantsFragment extends Fragment {
         mContext = context;
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -67,7 +66,6 @@ public class RestaurantsFragment extends Fragment {
         recyclerView = rootView.findViewById(R.id.my_recycler_view);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
-
 
         return rootView;
 

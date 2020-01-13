@@ -6,16 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
+
 
 public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
-
 
         // Get the intent that was used to start this activity
         Intent albaniaDetailsIntent = getIntent();
@@ -35,7 +33,6 @@ public class DetailsActivity extends AppCompatActivity {
         infoLocationTextView.setText(albaniaDetailsIntent.getStringExtra("LOCATION_INFO"));
         placeImageView.setImageResource(albaniaDetailsIntent.getIntExtra("PICTURE", 0));
         mapImageView.setImageResource(albaniaDetailsIntent.getIntExtra("MAP", 0));
-
 
         // Launch website in browser when url button is clicked
         findViewById(R.id.agency_website).setOnClickListener(new View.OnClickListener() {
@@ -64,12 +61,6 @@ public class DetailsActivity extends AppCompatActivity {
             }
         });
 
-        // Check if there is a url and display the map locator button if there is
-//        if (mapImageView.equals("")|| mapImageView.equals("NONE")) {
-//            mapImageView.setVisibility(View.GONE);
-//        }
-
     }
-
 
 }
