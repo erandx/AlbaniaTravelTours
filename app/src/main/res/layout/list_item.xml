@@ -33,9 +33,8 @@
             <TextView
                 android:id="@+id/info_text_view"
                 style="@style/list_item_style"
-                android:layout_below="@id/albania_text_view"
-                android:gravity="top"
                 android:text="@string/details_place_info"
+                android:gravity="top"
                 android:textColor="@android:color/darker_gray" />
 
         </RelativeLayout>

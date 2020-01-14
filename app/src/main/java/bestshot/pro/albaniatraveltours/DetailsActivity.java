@@ -38,7 +38,7 @@ public class DetailsActivity extends AppCompatActivity {
         findViewById(R.id.agency_website).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri = Uri.parse("https://www.traditionandadventure.com/");
+                Uri uri = Uri.parse(getString(R.string.agency_website_url));
 
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(String.valueOf(uri)));
