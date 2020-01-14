@@ -46,14 +46,14 @@ public class ToursFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.albania_list, container, false);
 
         //ArrayList data
-        AlbaniaDatabase.add(new Albania("Tirana City Break", "3 nights / 4 days", getString(R.string.tour_info), R.drawable.tirana_city_break));
-        AlbaniaDatabase.add(new Albania("Fly and drive Albania", "10 nights/11 days", getString(R.string.tour_info), R.drawable.fly_and_drive_albania));
-        AlbaniaDatabase.add(new Albania("Albania Culture and Heritage", "7 nights / 8 days", getString(R.string.tour_info), R.drawable.albania_culture_and_heritage));
-        AlbaniaDatabase.add(new Albania("Explore Albania", "5 nights / 6 days", getString(R.string.tour_info), R.drawable.explore_albania));
-        AlbaniaDatabase.add(new Albania("Albania Trekking Tour", "10 nights/11 days", getString(R.string.tour_info), R.drawable.albania_trekking_tour));
-        AlbaniaDatabase.add(new Albania("Saranda weekend break from Corfu", "2 nights / 3 days", getString(R.string.tour_info), R.drawable.saranda_weekend_break));
-        AlbaniaDatabase.add(new Albania("ALBANIA, MACEDONIA, KOSOVO", "Balkan in 12 days", getString(R.string.tour_info), R.drawable.albania_macedonia_kosovo));
-        AlbaniaDatabase.add(new Albania("Albania Culinary Delights", "7 nights / 8 days", getString(R.string.tour_info), R.drawable.discover_albania));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_1), getString(R.string.tour_name_1_info), getString(R.string.tour_info), R.drawable.tirana_city_break));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_2), getString(R.string.tour_name_2_info), getString(R.string.tour_info), R.drawable.fly_and_drive_albania));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_3), getString(R.string.tour_name_3_info), getString(R.string.tour_info), R.drawable.albania_culture_and_heritage));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_4), getString(R.string.tour_name_4_info), getString(R.string.tour_info), R.drawable.explore_albania));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_5), getString(R.string.tour_name_5_info), getString(R.string.tour_info), R.drawable.albania_trekking_tour));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_6), getString(R.string.tour_name_6_info), getString(R.string.tour_info), R.drawable.saranda_weekend_break));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_7), getString(R.string.tour_name_7_info), getString(R.string.tour_info), R.drawable.albania_macedonia_kosovo));
+        AlbaniaDatabase.add(new Albania(getString(R.string.tour_name_8), getString(R.string.tour_name_8_info), getString(R.string.tour_info), R.drawable.discover_albania));
 
         //Create a standard LinearLayout Manager to control how the recycler works
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());

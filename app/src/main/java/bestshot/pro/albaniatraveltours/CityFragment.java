@@ -47,15 +47,15 @@ public class CityFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.albania_list, container, false);
 
         //ArrayList data
-        AlbaniaDatabase.add(new Albania("Tirana", "Albania", getString(R.string.tirana_city_info), R.drawable.tirana1, R.drawable.ic_location,"https://goo.gl/maps/kb6iRJaQnkabpWVR8"));
-        AlbaniaDatabase.add(new Albania("Berat", "Albania", getString(R.string.berat_city_info), R.drawable.berat, R.drawable.ic_location,"https://goo.gl/maps/rWSsEAV7P3rfUGNQA"));
-        AlbaniaDatabase.add(new Albania("Durres", "Albania", getString(R.string.durres_city_info), R.drawable.durres, R.drawable.ic_location,"https://goo.gl/maps/S3g6S6gvUkuCxjWF9"));
-        AlbaniaDatabase.add(new Albania("Gjirokaster", "Albania", getString(R.string.gjirokaster_city_info), R.drawable.gjirokaster, R.drawable.ic_location,"https://goo.gl/maps/ziNAwyi8sYQu81W46"));
-        AlbaniaDatabase.add(new Albania("Kruja", "Albania", getString(R.string.kruja_city_info), R.drawable.kruja, R.drawable.ic_location,"https://goo.gl/maps/bk6eZV24RRugZno48"));
-        AlbaniaDatabase.add(new Albania("Pogradec", "Albania", getString(R.string.pogradec_city_info), R.drawable.pogradec, R.drawable.ic_location,"https://goo.gl/maps/ycF4MqnpbiiUmPKs5"));
-        AlbaniaDatabase.add(new Albania("Vlora", "Albania", getString(R.string.vlora_city_info), R.drawable.vlora,R.drawable.ic_location, "https://goo.gl/maps/SDrpV6BrzLxH13Yd9"));
-        AlbaniaDatabase.add(new Albania("Saranda", "Albania", getString(R.string.saranda_city_info), R.drawable.saranda, R.drawable.ic_location,"https://goo.gl/maps/X49kY8zHn7NWGizD9"));
-        AlbaniaDatabase.add(new Albania("Shkoder", "Albania", getString(R.string.shkoder_city_info), R.drawable.shkodra, R.drawable.ic_location,"https://goo.gl/maps/4r9FL8nx7J59zMGH9"));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_1), getString(R.string.city_name), getString(R.string.tirana_city_info), R.drawable.tirana1, R.drawable.ic_location,getString(R.string.city_name_1_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_2), getString(R.string.city_name), getString(R.string.berat_city_info), R.drawable.berat, R.drawable.ic_location,getString(R.string.city_name_2_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_3), getString(R.string.city_name), getString(R.string.durres_city_info), R.drawable.durres, R.drawable.ic_location,getString(R.string.city_name_3_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_4), getString(R.string.city_name), getString(R.string.gjirokaster_city_info), R.drawable.gjirokaster, R.drawable.ic_location,getString(R.string.city_name_4_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_5), getString(R.string.city_name), getString(R.string.kruja_city_info), R.drawable.kruja, R.drawable.ic_location,getString(R.string.city_name_5_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_6), getString(R.string.city_name), getString(R.string.pogradec_city_info), R.drawable.pogradec, R.drawable.ic_location,getString(R.string.city_name_6_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_7), getString(R.string.city_name), getString(R.string.vlora_city_info), R.drawable.vlora,R.drawable.ic_location, getString(R.string.city_name_7_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_8), getString(R.string.city_name), getString(R.string.saranda_city_info), R.drawable.saranda, R.drawable.ic_location,getString(R.string.city_name_8_map)));
+        AlbaniaDatabase.add(new Albania(getString(R.string.city_name_9), getString(R.string.city_name), getString(R.string.shkoder_city_info), R.drawable.shkodra, R.drawable.ic_location,getString(R.string.city_name_9_map)));
 
 
         //Create a standard LinearLayout Manager to control how the recycler works

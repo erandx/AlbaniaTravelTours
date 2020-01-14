@@ -18,8 +18,20 @@
     <string name="details_place_name">Tirana</string>
     <string name="details_place_info">City of Tirana</string>
 
-
     <!-- Information Regarding each city -->
+    <string name="city_name">Albania</string>
+
+    <!-- Information Regarding each City Name, Info & Restaurant City -->
+    <string name="city_name_1">Tirana</string>
+    <string name="city_name_2">Berat</string>
+    <string name="city_name_3">Durres</string>
+    <string name="city_name_4">Gjirokaster</string>
+    <string name="city_name_5">Kruja</string>
+    <string name="city_name_6">Pogradec</string>
+    <string name="city_name_7">Vlora</string>
+    <string name="city_name_8">Saranda</string>
+    <string name="city_name_9">Shkoder</string>
+
     <string name="tirana_city_info">Tirana, the capital of Albania, is known for its colorful Ottoman-, Fascist- and Soviet-era architecture. Pastel buildings surround the city\'s focal point, Skanderbeg Square, which is named for its equestrian statue of a national hero. On the square\'s north end is the modernist National History Museum, covering prehistoric times through Communist rule and the anti-Communist uprisings of the 1990s.</string>
     <string name="berat_city_info">Berat is a city on the Osum River, in central Albania. It is known for its white Ottoman houses. On a hilltop, Berat Castle is a huge compound now inhabited by townspeople. Within its walls are Byzantine churches, the Red Mosque and the Onufri National Museum, with Christian icons. East is the Ethnographic Museum, in an 18th-century house, displaying traditional crafts and part of a reconstructed medieval bazaar."</string>
     <string name="durres_city_info">Durrës is a port city on the Adriatic Sea in western Albania, west of the capital, Tirana. It’s known for its huge Roman amphitheater. Nearby is a 9th-century church with mosaic-covered walls. The Archaeological Museum displays pieces from the Greek, Hellenistic and Roman periods.</string>
@@ -30,9 +42,50 @@
     <string name="saranda_city_info">Sarandë is a resort on the Albanian Riviera, in southern Albania. Sandwiched between the Ionian Sea and hills of olive groves, the town is on a horseshoe-shaped bay, edged by beaches and a promenade. In the center are the archaeological remains of a 5th-century synagogue, later an early Christian basilica. Intricate floor mosaics are still evident. The 16th-century Lëkurësi Castle is on a hilltop above the town.</string>
     <string name="shkoder_city_info">Shkodra, the traditional centre of the Gheg cultural region, is one of the oldest cities in Europe and arguably the most attractive urban centre in Albania.</string>
 
+    <!-- Information Regarding each city Map url-->
+    <string name="city_name_1_map">https://goo.gl/maps/kb6iRJaQnkabpWVR8</string>
+    <string name="city_name_2_map">https://goo.gl/maps/rWSsEAV7P3rfUGNQA</string>
+    <string name="city_name_3_map">https://goo.gl/maps/S3g6S6gvUkuCxjWF9</string>
+    <string name="city_name_4_map">https://goo.gl/maps/ziNAwyi8sYQu81W46</string>
+    <string name="city_name_5_map">https://goo.gl/maps/bk6eZV24RRugZno48</string>
+    <string name="city_name_6_map">https://goo.gl/maps/ycF4MqnpbiiUmPKs5</string>
+    <string name="city_name_7_map">https://goo.gl/maps/SDrpV6BrzLxH13Yd9</string>
+    <string name="city_name_8_map">https://goo.gl/maps/X49kY8zHn7NWGizD9</string>
+    <string name="city_name_9_map">https://goo.gl/maps/4r9FL8nx7J59zMGH9</string>
 
-    <!-- Information Regarding Tours -->
+    <!-- Information Regarding Tours Info-->
     <string name="tour_info">Please send us an email in case you would like to ask about more information.</string>
+
+    <!-- Information Regarding Name of Tours -->
+    <string name="tour_name_1_info">3 nights / 4 days</string>
+    <string name="tour_name_2_info">10 nights/11 days</string>
+    <string name="tour_name_3_info">7 nights / 8 days</string>
+    <string name="tour_name_4_info">5 nights / 6 days</string>
+    <string name="tour_name_5_info">10 nights/11 days</string>
+    <string name="tour_name_6_info">2 nights / 3 days</string>
+    <string name="tour_name_7_info">Balkan in 12 days</string>
+    <string name="tour_name_8_info">7 nights / 8 days</string>
+
+    <!-- Information Regarding Name of Tours -->
+    <string name="tour_name_1">Tirana City Break</string>
+    <string name="tour_name_2">Fly and drive Albania</string>
+    <string name="tour_name_3">Albania Culture and Heritage</string>
+    <string name="tour_name_4">Explore Albania</string>
+    <string name="tour_name_5">Albania Trekking Tour</string>
+    <string name="tour_name_6">Saranda weekend break from Corfu</string>
+    <string name="tour_name_7">ALBANIA, MACEDONIA, KOSOVO</string>
+    <string name="tour_name_8">Albania Culinary Delights</string>
+
+    <!-- Information Regarding each Hotel -->
+    <string name="hotel_name_1">Hotel Rogner</string>
+    <string name="hotel_name_2">Hotel Mangalemi</string>
+    <string name="hotel_name_3">Hotel Ylli i Detit</string>
+    <string name="hotel_name_4">Hotel Gjirokastra</string>
+    <string name="hotel_name_5">Hotel Panorama</string>
+    <string name="hotel_name_6">Hotel Perla</string>
+    <string name="hotel_name_7">Hotel Regina</string>
+    <string name="hotel_name_8">Hotel Brilant</string>
+    <string name="hotel_name_9">Hotel Tradita</string>
 
     <!-- Information Regarding each Hotel -->
     <string name="tirana__hotel_rogner_info">The Europapark Rogner Hotel in Tirana is the city’s most exclusive facility which features five-star Albanian lifestyle, situated on the main boulevard of Tirana, next to the Ministry of Finances and other important institutions of Albania and Tirana. The seat of the Parliament, the President’s office, Prime minister’s office and many important embassies are within walking distance and makes the Europapark Rogner Hotel in Tirana the meeting place of the international economy, diplomacy, culture, business and art..</string>
@@ -45,6 +98,28 @@
     <string name="saranda_hotel_brilant_info">Brilant is a modern 4 star hotel located in the beautiful area of Saranda, on the south coast of Albania. The combination of the excellent location, the hotel facilities and our friendly staff, have established our hotel in the TOP of holiday choice of Saranda.</string>
     <string name="shkoder_hotel_tradita_info">Facing the hillside, the 3-star Hotel Tradita features a terrace restaurant. The venue is housed in an ancient-style building. Its rooms come with a cupboard, a writing table and ironing facilities. Hotel Tradita Shkoder offers a stunning view to its guests. All accommodation has hardwood floor.</string>
 
+    <!-- Information Regarding each Hotel Map-->
+    <string name="hotel_name_1_map">https://goo.gl/maps/Etv4PrkmXF2Vm5LQ8</string>
+    <string name="hotel_name_2_map">https://goo.gl/maps/FPQ2wR6qe3VzDrUu9</string>
+    <string name="hotel_name_3_map">https://goo.gl/maps/5MriBW9tPYhcMgNi6</string>
+    <string name="hotel_name_4_map">https://goo.gl/maps/k8tEKfCExCoRzANT9</string>
+    <string name="hotel_name_5_map">https://goo.gl/maps/8M8mkN4ibozhnZNw8</string>
+    <string name="hotel_name_6_map">https://goo.gl/maps/oQ6twYWLE2W3ZBPb6</string>
+    <string name="hotel_name_7_map">https://goo.gl/maps/fQJBoMYw5gL7TNCu6</string>
+    <string name="hotel_name_8_map">https://goo.gl/maps/get2PS64YnHi84xr9</string>
+    <string name="hotel_name_9_map">https://goo.gl/maps/N3UXwyDy6jso1NLa8</string>
+
+    <!-- Information Regarding each Restaurant Name -->
+    <string name="restaurant_1">Bujtina Gjelit</string>
+    <string name="restaurant_2">Restorant Mangalemi</string>
+    <string name="restaurant_3">Rifat Peshkatari</string>
+    <string name="restaurant_4">Taverna Tradicionale</string>
+    <string name="restaurant_5">Restorant Bardhi</string>
+    <string name="restaurant_6">Rosa e Tymosur</string>
+    <string name="restaurant_7">Restorant Joni</string>
+    <string name="restaurant_8">Restorant Demi</string>
+    <string name="restaurant_9">Restorant Tradita</string>
+
     <!-- Information Regarding each Restaurant -->
     <string name="tirana_restaurant_bujtina_e_gjelit">Opened in 1994,albanian traditional Hotel-Restaurant Bar! Common areas feature rustic wood beams and cobblestone floors. There\'s an informal restaurant with a brick oven and outdoor seating, an outdoor pool with sunloungers, and free parking. Hiking, BBQs and fruit-picking are available at the hotel\'s off-site farm.</string>
     <string name="berat_restaurant_mangalemi">With the change of system in 1991, the idea of the Mio family to establish a private business was clear. Thus, the old house was restructured and transformed into Mangalem’ Hotel – a modest investment at that time, but made with much love and dedication. Initially, it was operated as a restaurant prominent for its traditional cooking even then.</string>
@@ -56,7 +131,16 @@
     <string name="saranda_restaurant_demi">Whether you are going to have a business lunch, romantic candlelight dinner or just a drink after a busy day, the Demi Restaurant will always meet your needs. Don’t hesitate to book a table at the Demi Restaurant and your evening will be transformed into a genuine voyage of pleasure, discovering a new way of reinterpreting the culinary traditions of a region which is one of the richest in flavors and recipes: no other restaurant in Saranda can offer more. Enjoy the breakfast, lunch or dinner in an elegant ambiance under greenery or at the seaside.</string>
     <string name="shkoder_restaurant_tradita">www.traditionandadventure.com</string>
 
+    <!-- Information Regarding each Restaurant Map url -->
+    <string name="restaurant_1_map">https://g.page/Gjeli?share</string>
+    <string name="restaurant_2_map">https://goo.gl/maps/FPQ2wR6qe3VzDrUu9</string>
+    <string name="restaurant_3_map">https://goo.gl/maps/m1QbXEe6wcSBg6WU7"</string>
+    <string name="restaurant_4_map">https://goo.gl/maps/EKbYHRFjYgTE7vFN9</string>
+    <string name="restaurant_5_map">https://goo.gl/maps/enKe1bUAzYsyRmQz5</string>
+    <string name="restaurant_6_map">https://goo.gl/maps/1MMqV3PaADfNrzwe6</string>
+    <string name="restaurant_7_map">https://goo.gl/maps/HkUeJigMwDAHrRUE8</string>
+    <string name="restaurant_8_map">https://goo.gl/maps/4D56WnZr1TTz8ouN6</string>
+    <string name="restaurant_9_map">https://goo.gl/maps/N3UXwyDy6jso1NLa8</string>
 
     <string name="agency_website_url">www.traditionandadventure.com</string>
-
 </resources>
