@@ -5,6 +5,8 @@
 
 • Designed for API level 15 or better and build with Android Studio.
 
+![image](https://github.com/erandx/AlbaniaTravelTours/blob/master/albania_screenshot.jpg)
+
 
 # Features
 • Multiple Fragments
